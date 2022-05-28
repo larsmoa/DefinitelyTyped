@@ -18,12 +18,12 @@ export interface MaterialParameters {
     alphaTest?: number | undefined;
     alphaToCoverage?: boolean | undefined;
     blendDst?: BlendingDstFactor | undefined;
-    blendDstAlpha?: number | undefined;
+    blendDstAlpha?: number | null | undefined;
     blendEquation?: BlendingEquation | undefined;
-    blendEquationAlpha?: number | undefined;
+    blendEquationAlpha?: number | null | undefined;
     blending?: Blending | undefined;
     blendSrc?: BlendingSrcFactor | BlendingDstFactor | undefined;
-    blendSrcAlpha?: number | undefined;
+    blendSrcAlpha?: number | null | undefined;
     clipIntersection?: boolean | undefined;
     clippingPlanes?: Plane[] | undefined;
     clipShadows?: boolean | undefined;
